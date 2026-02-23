@@ -63,17 +63,17 @@ section .data
     s_6 db "-....", 0: s_7 db "--...", 0: s_8 db "---..", 0: s_9 db "----.", 0
 
     ; UI Strings
-    msg_title      db "🔐 Secure Morse Chat", 10, 0
-    msg_key_gen    db "🔑 Session key generated (hidden)", 10, 0
+    msg_title      db "Secure Morse Chat", 10, 0
+    msg_key_gen    db " Session key generated (hidden)", 10, 0
     msg_sep        db "----------------------------------------", 10, 0
     msg_menu       db 10, "1️⃣ Encrypt text → Morse", 10, "2️⃣ Decrypt Morse → text", 10, "3️⃣ Exit", 10, "Choose: ", 0
     msg_enter_txt  db "Enter text: ", 0
     msg_enter_mor  db "Enter Morse: ", 0
-    msg_out_morse  db 10, "📡 Encrypted Morse:", 10, "%s", 10, 0
-    msg_out_text   db 10, "📜 Decrypted text:", 10, "%s", 10, 0
-    msg_err_morse  db "❌ Invalid Morse or wrong session!", 10, 0
-    msg_exit       db "👋 Session ended. Key destroyed.", 10, 0
-    msg_invalid    db "❌ Invalid choice", 10, 0
+    msg_out_morse  db 10, "Encrypted Morse:", 10, "%s", 10, 0
+    msg_out_text   db 10, "Decrypted text:", 10, "%s", 10, 0
+    msg_err_morse  db "Invalid Morse or wrong session!", 10, 0
+    msg_exit       db "Session ended. Key destroyed.", 10, 0
+    msg_invalid    db "Invalid choice", 10, 0
     fmt_s          db "%s", 0
     hex_chars      db "0123456789abcdef", 0
     space_delim    db " ", 10, 13, 0
